@@ -1,0 +1,169 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial",sans-serif;
+}
+.cabecalho{
+    background-color: #d5e5ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 900px;
+    padding: 10px;
+}
+/*body{*/
+/*    background-color: aliceblue;*/
+/*}*/
+
+.menuTopo ul{
+    display: flex;
+    gap: 60px;
+    /*Para tirar as bolinhas da lista*/
+    list-style: none;
+    align-items: center;
+}
+
+
+.BtnAvaliacao{
+    color: white;
+    background-color: deeppink;
+    border-color: deeppink;
+    border-radius: 15px;
+    /*Para aumentar o espço interno*/
+    padding: 5px 10px ;
+}
+.banner{
+    background-color: #cecece;
+    width: 100%;
+    height: 500px;
+}
+.itensBanner img{
+    width: 500px;
+}
+.itensBanner h1{
+    color: #f400a1;
+    font-size: 40px;
+}
+.itensBanner{
+    color: black;
+}
+
+.itensBanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none ;
+}
+
+.contanierBemvindo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 80px;
+    text-align: justify;
+    gap: 100px;
+}
+.texto1,
+.texto2{
+    width: 50%;
+}
+.texto1 h4{
+    color: #f400a1;
+ }
+
+.beneficios{
+    background-color: #e1e5f7;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contanierBeneficios h4{
+    color: #f400a1;
+    font-size: 30px;
+}
+
+.itensBeneficios{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.itensBeneficios img{
+    width: 100px;
+}
+
+.itensBeneficios p{
+    color: #f400a1;
+}
+
+.contanierAvaliacao{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    gap: 100px;
+}
+
+.cachorroAvaliacao img{
+    height: 300px;
+    margin-left: 50px;
+}
+
+.itensAvaliacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.itensAvaliacao h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.itensAvaliacao p{
+    color: #545d6e;
+    text-align: center;
+    font-size: 22px;
+}
+.itensAvaliacao form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btnForm{
+    border-radius: 30px ;
+    background-color: #ff4081;
+    color: white;
+    border-color: transparent;
+    width: 300px;
+    height: 30px;
+    margin-top: 15px ;
+}
+
+.rodape{
+    background-color: #e1e5f7;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape img{
+    width: 80px;
+    align-self: flex-end;
+}
+
+.contanierRodape{
+    text-align: center;
+}
